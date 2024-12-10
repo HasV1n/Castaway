@@ -1,0 +1,297 @@
+body{
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding: 0 70px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.active{
+    color: #118DA8;
+}
+
+.latest_episodes__title{
+    display: flex;
+}
+
+.View{
+    margin-left: 1309px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.title_description h1{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+
+.title_description{
+    margin-left: 60px;
+    width: 30%;
+}
+
+.underline{
+    border-bottom: 5px solid #118DA8;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.title_description em{
+    font-style: normal;
+    color: gray;
+    padding-left: 20px;
+}
+
+.title_icons{
+    margin-top: 16px;
+    padding-left: 20px;
+}
+
+.title_icons img{
+    margin-right: 17px;
+}
+
+.latest_episodes__item{
+    display: flex;
+    margin-top: 40px;
+    background-color: black;
+    margin-bottom: 60px;
+    border-radius: 25px;
+}
+
+.tag{
+    background-color: #191919;
+    border-radius: 15px;
+    width: fit-content;
+    
+    text-align: center;
+    padding: 4px 15px;
+}
+
+.latest_episodes__info{
+    margin-left: 53px;
+    width: 600px;
+}
+
+.episode_title{
+    font-size: 60px;
+    font-weight: 390;
+    line-height: 70.4px;
+    margin-top: 18px;
+}
+
+.episode_description{
+    color: rgb(163, 163, 163);
+}
+
+.number{
+    color: #118DA8;
+    margin-top: 48px;
+}
+
+.latest_episodes__item img{
+    width: 389px;
+    height: 465px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+input{
+    font-family: "DM Sans", sans-serif;
+    background-color: #191919;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #118DA8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    line-height: 28.8px;
+
+}
+
+
+.email_new{
+    color: #118DA8;
+}
+
+.episode_sub{
+    font-size: 60px;
+    font-weight: 390;
+    line-height: 79.2px;
+    margin-top: 18px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 227px;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+.subbb{
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-top: 100.13px;
+    
+}
+
+.sub{
+    padding-left: 60px;
+    width: 300px;
+    padding-top: 59.13px;
+    margin-right: 227px;
+    margin-bottom: 143px;
+    margin-top: 26px;
+}
+
+#nickname{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    padding-right: 438px;
+    padding-top: 26px;
+    padding-bottom: 27px;
+    padding-left: 19px;
+}
+
+#email{
+    margin-bottom: 29px;
+    margin-top: 20px;
+    padding-right: 438px;
+    padding-top: 26px;
+    padding-bottom: 27px;
+    padding-left: 19px;
+}
+
+.submit{
+    width: 87px;
+    height: 48px;
+}
+
+.title_descriptionnn{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.aboutt{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    width: 400px;
+    
+}
+
+.person img{
+    order: 10;
+}
+
+.aboutt p{
+    color:rgb(163, 163, 163);
+}
+
+.aboutt img{
+    width: 112px;
+    height: 112px;
+}
+
+.aboutt em{
+    color:#118DA8;
+    margin-top: 20px;
+}
+
+.aboutt h2{
+    font-size: 60px;
+    font-weight: 390;
+    line-height: 79.2px;
+    margin-top: 1px;
+    margin-bottom: 28px;
+}
+
+.jacob{
+    margin-bottom: 33px;
+}
+
+.ab{
+    margin-top: 147.56px;
+}
+
+.arrow{
+    margin-bottom: 20px;
+    width: 112px;
+    height: 112px;
+}
+
+.person{
+    padding-top: 100.44px;
+}
+
+footer{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer_links_info a, .footer_links_menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer_logo, .title_icons{
+    flex-grow: 2;
+}
+
+.footer_links_info , .footer_links_menu {
+    flex-grow: 1;
+}
+
+.logoss{
+    margin-bottom: 20px;
+}
+
+.subscribe>img{
+    position: relative;
+    height: 91px;
+    width: 147px;
+    left: -33px;
+    bottom: 60px;
+}
